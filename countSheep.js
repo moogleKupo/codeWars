@@ -1,12 +1,9 @@
-var countSheep = function (num){
-  let countMurmur = ""
-    for (let i = 1; i = num.length; i++) {
-      countMurmur += `${num} sheep...`;
-      console.log(countMurmur);
-    }
-  console.log(countMurmur);
+let countSheep = function(num) {
+  let countMurmur = "";
+  for (let i = 1; i <= num; i++) {
+    countMurmur += `${i} sheep...`;
+  }
   return countMurmur;
-}
+};
 //test
-
 console.log(countSheep(4));
