@@ -1,11 +1,10 @@
-function highAndLow(numbers){
-  // ...
-  let highNum = 0;
-  let lowNUm = 0;
-  for (let i = 0; i < numbers.length; i++){
-    if (numbers[i] > (numbers[i + 2] {
-        highNum = numbers[i];
-        } else {highNum = numbers[i + 2];
+// First, create a function to turn the string of numbers in to an array of numbers
+  function stringToArray(numbers) {
+    const resultArray = numbers.split(' ').map(Number);
+    return resultArray;
   }
-}
-}
+
+  function highAndLow(){
+    
+  }
+console.log(stringToArray("1 2 3 4"));
