@@ -12,7 +12,7 @@ const passengerRemainderCalc = function(obj) {
   
 
 console.log(passengerRemainderCalc({
-  3: 1,
+  3: 0,
   4: 6,
   7: 5
 }))
